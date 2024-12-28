@@ -4,7 +4,8 @@ import re
 import pandas as pd
 
 #zmiany
-# zmiany w master 29
+#kolejne zmiany w gałęzi poprawki
+
 def pdf_to_images_and_html_with_responsive_anchors(pdf_path, pattern, output_html_dir):
     pdf_document = fitz.open(pdf_path)
     output_html = os.path.join(output_html_dir, f"{os.path.splitext(os.path.basename(pdf_path))[0]}.html")
