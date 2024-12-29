@@ -5,6 +5,7 @@ import pandas as pd
 
 #zmiany
 #kolejne zmiany w gałęzi poprawki
+# zmiany w gałęzi poprawki 29.12
 
 def pdf_to_images_and_html_with_responsive_anchors(pdf_path, pattern, output_html_dir):
     pdf_document = fitz.open(pdf_path)
